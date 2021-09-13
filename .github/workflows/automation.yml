@@ -1,4 +1,4 @@
-name: 自動化
+name: 巴哈簽到
 
 on:
   schedule:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   automation:
-    name: 自動化
+    name: 巴哈簽到自動化
     runs-on: macos-latest
     steps:
       - name: Bahamut Automation
