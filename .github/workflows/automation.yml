@@ -2,13 +2,13 @@ name: 巴哈簽到
 
 on:
   schedule:
-    - cron: "0 8,20 * * *"
+    - cron: "0 5,17 * * *"
   workflow_dispatch:
 
 jobs:
   automation:
     name: 巴哈簽到自動化
-    runs-on: macos-latest
+    runs-on: macos-10.15
     steps:
       - name: Bahamut Automation
         uses: JacobLinCool/Bahamut-Automation@action
