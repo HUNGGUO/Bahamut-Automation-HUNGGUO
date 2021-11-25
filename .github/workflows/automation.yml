@@ -2,7 +2,7 @@ name: 巴哈簽到
 
 on:
   schedule:
-    - cron: "0 5,17 * * *"
+    - cron: "0 5,13,21 * * *"
   workflow_dispatch:
 
 jobs:
